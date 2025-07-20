@@ -23,3 +23,10 @@ This project clusters news articles based on their semantic similarity using NLP
 ## Installation
 ```bash
 pip install pandas numpy matplotlib seaborn nltk scikit-learn wordcloud
+
+Usage
+Open the notebook news_article_similarity_analysis.ipynb in Jupyter or Google Colab to run the analysis. Visualizations are saved in the plots/ directory.
+
+Notes
+GloVe embeddings are downloaded from Hugging Face during execution.
+This project was inspired by a learning exercise and implemented independently to master NLP and clustering techniques.
